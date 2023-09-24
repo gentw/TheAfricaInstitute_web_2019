@@ -1,0 +1,47 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+.titles {
+  font-family: 'Bebas Neue', cursive;
+ }
+.paragraphs {
+  font-family: 'Roboto', sans-serif;
+ }
+
+body {  
+  font-family: 'Roboto', sans-serif !important;
+}
+p {
+  font-family: 'Roboto' !important;
+  font-weight: 300;
+}
+*:active {
+  outline: none !important;
+}
+*:focus {
+  outline: none !important;
+}
+a {
+  text-decoration: none !important;
+}
+.no_padding {
+  padding: 0px !important;
+}
+
+.small_padding-lr {
+  padding: 0px 5px !important;
+}
+
+.hr_default {
+  width: 150px;
+  margin: 15px 0px;
+  border-top: solid 2px #BBAC78;
+}

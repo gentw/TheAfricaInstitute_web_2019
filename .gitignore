@@ -1,0 +1,16 @@
+/public/hot
+/public/img/manjakos
+/public/img
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+bower_components
+node_modules
+.env
+wallwood.zip

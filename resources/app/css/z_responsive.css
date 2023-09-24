@@ -1,0 +1,112 @@
+/*Only in desktop*/
+@media only screen and (min-width: 1000px) {
+    .desktop-d-n {
+      display: none;
+    }
+	/* Container General New rule */
+	.container {
+	  width: 1400px;
+	}
+	.team_section .container {
+		width: 1140px;
+	}
+}
+
+
+/*Only on Mobile*/
+@media only screen and (max-width: 1000px) {
+    .mobile-d-n {
+   		display: none;
+	  }
+	
+	.blogBox {
+		width: 100%;
+		margin: 10px 1%;
+	}
+	.blogTxt h6 {
+		font-size: 20px;
+	}
+	.blogTxt p {
+		font-size: 13px;
+	}
+	.text_secti_about {
+		padding: 5vh 2vh;
+	}
+	.membership_section {
+		background: black;
+	}
+	.member_text {
+		background: white;
+	}
+	.member_card {
+		margin: 7px 2px;
+	}
+	.service_item {
+		height: auto;
+		width: 100%;
+		margin: .5%;
+	}
+	.services_section .row {
+		flex-direction: row;
+	}
+	.services_section .row {
+		height: auto !important; 
+		max-height: none !important;
+	}
+	[type=reset], [type=submit], button, html [type=button] {
+			background: transparent;
+	}
+	.navbar-toggler-right {
+		margin-top: 10px;
+	}
+	.cover_homepage {
+		padding: 30vh 10px 25vh;
+	}
+	
+	.footer_all_pages {
+		padding: 10vh 10px;
+		text-align: center;
+	}
+
+	.footer_all_pages hr {
+		display: none;
+	}
+	.service_item img {
+		width: 100%;
+		height: 400px;
+		object-fit: cover;
+	}
+	.related_1 {
+			padding: 15% 10%;
+
+	}
+	.item_big_news_one .blogTxt {
+    position: absolute;
+    top: 25vh;
+    left: 15%;
+    right: 15%;
+    z-index: 99;
+    color: #fff;
+    text-align: center;
+	}
+
+	.carousel_mod .carousel-caption {
+		top: 24vh;
+		text-align: left;
+	}
+
+	.tradingview-widget-container {
+		height:88px !important;
+	}
+	.carousel_mod h5, .cover_homepage h2 {
+    font-size: 35px;
+    color: #fff;
+}
+.carousel_mod p {
+	font-size: 13px;
+}
+.carousel_mod .default_button  {
+	margin-top: 10px !important;
+}
+}
+	

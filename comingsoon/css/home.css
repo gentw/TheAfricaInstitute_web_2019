@@ -1,0 +1,350 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+/*        Dev: Rilind Pozhegu         */
+
+/*====================================*/
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+
+a {
+    text-decoration: none !important; 
+  }
+  @font-face {
+    font-family: 'BOD_B';
+    src: url('../fonts/BOD_B.TTF');
+   }
+   @font-face {
+     font-family: 'BOD_R';
+     src: url('../fonts/BOD_R.TTF');
+    }
+    @font-face {
+      font-family: 'SegoeUI';
+      src: url('../fonts/SegoeUI.ttf');
+     }
+    
+  /*====================*/
+  /*       RULES        */
+  /*====================*/
+  
+  body {
+    font-family: 'BOD_R' !important;
+    color: #0C1725;
+  }
+  button {
+    cursor: pointer;
+  }
+  button:active {
+    outline: none !important;
+  }
+  button:focus {
+    outline: none !important;
+  }
+  input:active {
+    outline: none !important;
+  }
+  input:focus {
+    outline: none !important;
+  }
+  a button:hover {
+    text-decoration: none !important;
+    cursor: pointer !important;
+  }
+  textarea:active {
+    outline: none !important;
+  }
+  textarea:focus {
+    outline: none !important;
+  }
+  select:active {
+    outline: none !important;
+  }
+  select:focus {
+    outline: none !important;
+  }
+  .no_padding {
+    padding: 0px !important;
+  }
+  .small_padding-lr {
+    padding: 0px 5px !important;
+  }
+  p {
+    font-size: 17px;
+  }
+  .form-control:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  .large_tit {
+    font-family: 'BebasNeue Bold' !important;
+    font-size: 50px;
+  }
+  .med_tit {
+    font-family: 'BebasNeue Bold' !important;
+    font-size: 45px;
+  }
+  
+
+.main_center {
+    background-position-x: center;
+    background-image: url('../img/Group 88.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 30vh;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#demo {
+    font-size: 80px;
+    color: white;
+    font-family: 'SegoeUI' !important;
+    font-weight: bolder;
+}
+#demo {
+  margin-bottom: 0px;
+}
+.main_center p {
+    margin: 10px 0px;
+}
+.main_center img {
+    width: 400px;
+}
+
+.main_center h5 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 3px;
+  line-height: 40px;
+}
+
+.main_center span:nth-child(4) {
+  font-family: 'SegoeUI' !important;
+  color: #fff !important;
+}
+
+
+.main_center span:last-child {
+  font-family: 'BOD_B';
+  color: #BBAC78;
+}
+
+.timer_s
+span {
+    font-weight: 100;
+    font-size: 40px;
+    opacity: .7;
+}
+
+.form-group {
+    margin-bottom: 0px !important;
+}
+
+.form-group label {
+    color: white;
+    font-family: 'SegoeUI';
+    margin-bottom: 0px;
+    letter-spacing: -1px;
+}
+
+button {
+    width: 200px;
+    margin-top: 23px !important;
+    height: 50px;
+    background: #FCCE23;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0px;
+    font-weight: bolder !important; 
+    transition: ease-in 0.4s;
+}
+
+button:hover {
+    transition: ease-out 0.4s;
+    opacity: 0.8;
+}
+
+.form-control {
+  height: 49px;
+  border-radius: 0px !important; 
+  background: rgba(2, 10, 25, 0.04) !important;
+  margin-top: -1px;
+}
+
+.white_section {
+  padding: 5% 0px;
+  background: rgba(187, 172, 120, 0.105);
+}
+
+.flex_row1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8%;
+}
+.flex_row1 .col-md-6:nth-child(2){
+  border-left: solid 1px #ccc;
+  padding: 10px 10px 10px 35px;
+}
+
+.flex_row1 h3 {
+  font-size: 40px;
+  font-family: 'BOD_B';
+}
+
+.flex_row2 img {
+  width: 100%;
+}
+
+.flex_row2 {
+  display: flex;
+  align-items: center;
+}
+.flex_row2 h2 {
+  font-size: 40px;
+  font-family: 'BOD_B';
+}
+
+.sub_sect_2 {
+  padding: 10% 0px;
+  text-align: center;
+}
+
+.sub_sect_2 h4 {
+  width: 100%;
+  font-size: 40px;
+  font-family: 'BOD_B';
+}
+
+.sub_sect_2 p {
+  text-align: center;
+  width: 70%;
+  margin: 5px auto;
+}
+
+.sub_sect_2 .col-md-4 {
+  text-align: left;
+}
+
+footer {
+  padding: 4% 0px 3%;
+  display: flex;
+  align-items: center;
+  background: #0C1725;
+  color: white;
+}
+
+footer img {
+  width: 200px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+
+footer h5 {
+  font-family: 'BOD_B';
+  font-size: 25px;
+}
+
+footer a:hover {
+  color: #BBAC78;
+}
+
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: darkgrey;
+outline: 1px solid slategrey;
+}
+
+
+.contact_section input {
+  margin: 3px 0px;
+}
+
+.contact_section textarea {
+  width: 100%;
+  height: 153px;
+  background: rgba(2, 10, 25, 0.04) !important;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  margin-top: 3px;
+}
+
+
+.count_days1 {
+  font-size: 25px;
+  color: white;
+  margin-top: 0px !important;
+  letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 844px) {
+  .mobile-d-n{
+      display: none !important;
+  }
+  .main_center img {
+    width: 230px;
+  }
+  
+  .flex_row1 .col-md-6:nth-child(2){
+    border-left: solid 1px transparent;
+    padding: 10px 10px 10px 35px;
+  }
+  #demo {
+    font-size: 50px;
+  }
+  .flex_row1 .col-md-6:nth-child(2) {
+    border-left: solid 1px transparent;
+    padding: 10px 10px 10px 15px;
+}
+.sub_sect_2 button {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 10vh 0px;
+}
+footer img {
+  margin-bottom: 30px;
+}
+.contact_section {
+  padding: 20px;
+}
+  .count_days1 {
+    font-size: 19px;
+    color: white;
+    margin-top: 0px !important;
+    letter-spacing: 0px;
+}
+}
